@@ -22,38 +22,37 @@ function App() {
       <CallToAction />
       <footer className="bg-black text-white py-8">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-6">
+          <div className="flex flex-col md:flex-row justify-between items-start">
             {/* Contact Information */}
-            <div>
+            <div className="w-full md:w-auto text-center md:text-left mb-6 md:mb-0">
               <h3 className="text-xl font-semibold mb-4">Contact Us</h3>
               <address className="not-italic">
-                <p className="mb-2">123 Travel Street</p>
-                <p className="mb-2">Adventure City, AC 12345</p>
-                <p className="mb-2">United States</p>
+                <p className="mb-2">TripAmigo, Gyan Prayag, Old Block, RCSS,</p>
+                <p className="mb-2">Kalamassery, Ernakulam, Kerala</p>
               </address>
             </div>
             
             {/* Social Links */}
-            <div>
+            <div className="w-full md:w-auto text-center md:text-right">
               <h3 className="text-xl font-semibold mb-4">Connect With Us</h3>
-              <div className="flex space-x-4">
-                <a href="mailto:info@tripamigo.com" className="hover:text-blue-400 transition-colors">
+              <div className="flex justify-center md:justify-end space-x-4">
+                <a href="mailto:contact.tripamigos@gmail.com" className="hover:text-blue-400 transition-colors">
                   <FaEnvelope size={24} />
                 </a>
-                <a href="https://instagram.com/tripamigo" target="_blank" rel="noopener noreferrer" className="hover:text-pink-500 transition-colors">
+                <a href="https://instagram.com/tripamigo.in" target="_blank" rel="noopener noreferrer" className="hover:text-pink-500 transition-colors">
                   <FaInstagram size={24} />
                 </a>
-                <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer" className="hover:text-green-500 transition-colors">
+                <a href="https://wa.me/+917994206184" target="_blank" rel="noopener noreferrer" className="hover:text-green-500 transition-colors">
                   <FaWhatsapp size={24} />
                 </a>
-                <a href="tel:+1234567890" className="hover:text-blue-400 transition-colors">
+                <a href="tel:+917994206184" className="hover:text-blue-400 transition-colors">
                   <FaPhone size={24} />
                 </a>
               </div>
             </div>
           </div>
           
-          <div className="border-t border-gray-800 pt-4 text-center">
+          <div className="border-t border-gray-800 pt-4 mt-4 text-center">
             <p className="text-sm">Copyright © TripAmigo</p>
           </div>
         </div>
