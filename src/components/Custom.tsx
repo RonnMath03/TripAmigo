@@ -14,9 +14,11 @@ const Custom = () => {
               that match your preferences. Tell us your dream destination, and we'll handle 
               the details - flights, stays, activities, and more.
             </p>
+            <a href="https://wa.me/+917994206184" target="_blank" rel="noopener noreferrer">
             <button className="bg-orange-500 text-white px-8 py-3 rounded-lg hover:bg-orange-600 transition-colors relative z-20">
               Get your Custom Itinerary
             </button>
+            </a>
           </div>
 
         <div className="absolute bottom-0 right-0 z-0 opacity-50">

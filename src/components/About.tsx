@@ -30,9 +30,11 @@ const About = () => {
             <p className="text-black-600 mb-8">
               Ready to join us? Let's make unforgettable memories, one adventure at a time, without breaking the bank!
             </p>
+            <a href="https://wa.me/+917994206184" target="_blank" rel="noopener noreferrer">
             <button className="bg-orange-500 text-white px-6 py-3 rounded-lg hover:bg-orange-600 transition-colors">
               Lets Plan Your Trip
             </button>
+            </a>
           </div>
         </div>
       </div>

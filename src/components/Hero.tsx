@@ -19,9 +19,11 @@ const Hero = () => {
           <p className="text-xl text-white mb-8">
             More than trip planners — we're your travel partners. From start to finish, we've got your back.
           </p>
-          <button className="bg-orange-500 text-white px-8 py-3 rounded-lg hover:bg-orange-600 transition-colors">
-            Plan Your Trip
-          </button>
+          <a href="https://wa.me/+917994206184" target="_blank" rel="noopener noreferrer">
+            <button className="bg-orange-500 text-white px-8 py-3 rounded-lg hover:bg-orange-600 transition-colors">
+              Plan Your Trip
+            </button>
+          </a>
         </div>
       </div>
     </div>
