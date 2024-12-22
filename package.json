@@ -1,7 +1,7 @@
 {
-  "name": "vite-react-typescript-starter",
+  "name": "TripAmigo",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.1",
   "homepage": "https://ronnmath03.github.io/TripAmigo/",
   "type": "module",
   "scripts": {
