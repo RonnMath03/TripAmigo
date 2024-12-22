@@ -42,7 +42,7 @@ const Features = () => {
       </div>
       <div className="hidden md:block absolute bottom-12 -left-20 z-0">
       <img 
-        src="/images/flight.png" 
+        src="./images/flight.png" 
         alt="" 
         className="h-24 md:h-32 w-auto object-cover"
         aria-hidden="true"

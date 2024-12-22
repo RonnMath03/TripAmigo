@@ -38,7 +38,7 @@ const About = () => {
       </div>
       <div className="absolute bottom-0 right-0 z-0">
         <img 
-          src="/images/mount.png" 
+          src="./images/mount.png" 
           alt="" 
           className="h-56 w-auto object-cover opacity-90"
           aria-hidden="true"
