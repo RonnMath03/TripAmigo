@@ -3,21 +3,21 @@ import React from 'react';
 const destinations = [
   {
     name: 'Goa',
-    duration: '3N/4D',
+    duration: '2N/3D',
     image: './images/goa.png',
-    rating: '$$$$'
+    rating: '₹3499'
   },
   {
     name: 'Kodaikanal',
-    duration: '3N/4D',
+    duration: '1N/2D',
     image: './images/kodai.png',
-    rating: '$$$$'
+    rating: '₹2699'
   },
   {
     name: 'Pondicherry',
-    duration: '3N/4D',
+    duration: '2N/3D',
     image: './images/pondi.png',
-    rating: '$$$$'
+    rating: '₹3499'
   }
 ];
 
