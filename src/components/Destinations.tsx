@@ -4,19 +4,19 @@ const destinations = [
   {
     name: 'Goa',
     duration: '3N/4D',
-    image: '../images/goa.png',
+    image: 'public/images/goa.png',
     rating: '$$$$'
   },
   {
     name: 'Kodaikanal',
     duration: '3N/4D',
-    image: '../images/kodai.png',
+    image: 'public/images/kodai.png',
     rating: '$$$$'
   },
   {
     name: 'Pondicherry',
     duration: '3N/4D',
-    image: '../images/pondi.png',
+    image: 'public/images/pondi.png',
     rating: '$$$$'
   }
 ];
@@ -35,7 +35,7 @@ const Destinations = () => {
             <div key={index} className="relative rounded-lg overflow-hidden shadow-lg group">
               <div className="aspect-w-16 aspect-h-9">
                 <img
-                  src={`/src/assets/${destination.image}`}
+                  src={`${destination.image}`}
                   alt={destination.name}
                   className="w-full h-full object-cover"
                 />

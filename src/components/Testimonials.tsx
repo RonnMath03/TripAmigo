@@ -33,7 +33,7 @@ const testimonials: TestimonialData[] = [
     rating: 5,
     bgColor: "bg-orange-100",
     textColor: "text-orange-500",
-    q: "src/images/quoteo.png"
+    q: "public/images/quoteo.png"
   },
   {
     name: "Marita",
@@ -41,7 +41,7 @@ const testimonials: TestimonialData[] = [
     rating: 5,
     bgColor: "bg-orange-500",
     textColor: "text-white",
-    q: "src/images/quotew.png"
+    q: "public/images/quotew.png"
   },
   {
     name: "Shervin",
@@ -49,7 +49,7 @@ const testimonials: TestimonialData[] = [
     rating: 5,
     bgColor: "bg-orange-100",
     textColor: "text-orange-500",
-    q: "src/images/quoteo.png"
+    q: "public/images/quoteo.png"
   }
 ];
 
@@ -58,7 +58,7 @@ const Testimonials = () => {
     <div className="py-16 bg-white relative">
       <div className="absolute -bottom-4 -left-40 z-0">
         <img 
-          src="src/images/tower.png" 
+          src="public/images/tower.png" 
           alt="" 
           className="h-svh w-96 object-cover opacity-100"
           aria-hidden="true"

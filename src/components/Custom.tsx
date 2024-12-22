@@ -21,14 +21,14 @@ const Custom = () => {
 
         <div className="absolute bottom-0 right-0 z-0 opacity-50">
             <img 
-                src="src/images/lean.png"
+                src="public/images/lean.png"
                 alt=""
                 className="h-56 object-cover rounded-lg"
             />
         </div>
         <div className="absolute bottom-0 left-0 z-0 opacity-50">
             <img 
-                src="src/images/taj.png"
+                src="public/images/taj.png"
                 alt=""
                 className="h-44 object-cover rounded-lg"
             />

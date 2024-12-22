@@ -17,7 +17,7 @@ const CallToAction = () => {
       </div>
       <div className="absolute top-3 right-0 z-0">
         <img 
-          src="src/images/suit.png" 
+          src="public/images/suit.png" 
           alt="" 
           className="h-32 w-auto object-cover opacity-70"
           aria-hidden="true"
@@ -25,7 +25,7 @@ const CallToAction = () => {
       </div>
       <div className="absolute -bottom-2 -left-10 z-0">
         <img 
-          src="src/images/train.png" 
+          src="public/images/train.png" 
           alt="" 
           className="h-52 w-auto object-cover opacity-70"
           aria-hidden="true"
