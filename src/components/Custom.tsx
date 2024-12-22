@@ -26,7 +26,7 @@ const Custom = () => {
                 className="h-56 object-cover rounded-lg"
             />
         </div>
-        <div className="absolute bottom-0 left-0 z-0 opacity-50">
+        <div className="hidden md:block absolute bottom-0 left-0 z-0 opacity-50">
             <img 
                 src="./images/taj.png"
                 alt=""
