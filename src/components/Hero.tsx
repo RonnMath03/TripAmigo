@@ -9,7 +9,6 @@ const Hero = () => {
           <div className="bg-[url('/images/1.png')] bg-cover brightness-50"></div>
           <div className="bg-[url('/images/2.png')] bg-cover brightness-50"></div>
           <div className="bg-[url('/images/4.png')] bg-cover brightness-50"></div>
-          {/*<div className="bg-[url('src/images/3.png')] bg-cover brightness-50"></div>*/}
         </div>
       </div>
       <div className="relative z-10 container mx-auto px-4 h-full flex items-center justify-center text-center">
