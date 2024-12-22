@@ -7,8 +7,5 @@ export default defineConfig({
   base: "/TripAmigo/",
   optimizeDeps: {
     exclude: ['lucide-react'],
-  },
-  server: {
-    host: true
-}
+  }
 });
