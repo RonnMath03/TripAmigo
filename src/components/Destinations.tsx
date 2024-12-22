@@ -4,19 +4,19 @@ const destinations = [
   {
     name: 'Goa',
     duration: '3N/4D',
-    image: 'public/images/goa.png',
+    image: '/images/goa.png',
     rating: '$$$$'
   },
   {
     name: 'Kodaikanal',
     duration: '3N/4D',
-    image: 'public/images/kodai.png',
+    image: '/images/kodai.png',
     rating: '$$$$'
   },
   {
     name: 'Pondicherry',
     duration: '3N/4D',
-    image: 'public/images/pondi.png',
+    image: '/images/pondi.png',
     rating: '$$$$'
   }
 ];
