@@ -1,14 +1,14 @@
 {
-  "homepage": "https://ronnmath03.github.io/TripAmigo",
   "name": "vite-react-typescript-starter",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://ronnmath03.github.io/TripAmigo/",
   "type": "module",
   "scripts": {
-    "build": "vite build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "dev": "vite --host",
+    "dev": "vite",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
