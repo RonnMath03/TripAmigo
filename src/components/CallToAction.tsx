@@ -11,7 +11,7 @@ const CallToAction = () => {
           Tell us where you're headed, and we'll send you a tailored itinerary, including
           transport, accommodation, activities, and more — your entire travel blueprint for free!
         </p>
-        <a href="https://wa.me/+917994206184" target="_blank" rel="noopener noreferrer">
+        <a href="https://wa.me/917994206184?text=Hi%2C%20I%27m%20interested%20in%20planning%20a%20trip%20with%20your%20assistance.%20Can%20you%20help%20me%20get%20started%3F" target="_blank" rel="noopener noreferrer">
         <button className="bg-orange-500 text-white px-8 py-3 rounded-lg hover:bg-orange-600 transition-colors">
           Get My Free Itinerary
         </button>
