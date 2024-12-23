@@ -2,7 +2,7 @@
   "name": "TripAmigo",
   "private": true,
   "version": "1.0.1",
-  "homepage": "https://ronnmath03.github.io",
+  "homepage": "https://ronnmath03.github.io/TripAmigo",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
