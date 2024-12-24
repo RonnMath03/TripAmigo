@@ -14,8 +14,8 @@ const Custom = () => {
               that match your preferences. Tell us your dream destination, and we'll handle 
               the details - flights, stays, activities, and more.
             </p>
-            <a href="https://wa.me/+917994206184" target="_blank" rel="noopener noreferrer">
-            <button className="bg-orange-500 text-white text-body px-8 py-3 rounded-lg hover:bg-orange-600 transition-colors relative z-20">
+            <a href="https://wa.me/917994206184/?text=Hi,+I'd+like+a+custom+itinerary+for+my+journey.+The+place+I+have+in+mind+is+[your+destination].+Can+you+assist+me+with+this+?" target="_blank" rel="noopener noreferrer">
+            <button className="bg-orange-500 text-white text-button px-8 py-3 rounded-lg hover:bg-orange-600 transition-colors relative z-20">
               Get your Custom Itinerary
             </button>
             </a>

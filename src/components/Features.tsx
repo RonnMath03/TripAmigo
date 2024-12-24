@@ -56,8 +56,8 @@ const Features = () => {
         </div>
       </div>
       <div className="w-full flex justify-center md:justify-end px-4 md:px-10 pb-8 md:pb-0 md:absolute md:-bottom-2">
-      <a href="https://wa.me/+917994206184" target="_blank" rel="noopener noreferrer">
-        <button className="bg-orange-500 text-white text-body px-6 md:px-8 py-3 rounded-lg hover:bg-orange-600 transition-colors">
+      <a href="https://wa.me/917994206184/?text=Hi,+I'm+excited+to+learn+more+about+the+benefits+you+offer.+Can+you+guide+me+on+how+to+get+started+?" target="_blank" rel="noopener noreferrer">
+        <button className="bg-orange-500 text-white text-button px-6 md:px-8 py-3 rounded-lg hover:bg-orange-600 transition-colors">
           Start Your Adventure Now
         </button> 
       </a>

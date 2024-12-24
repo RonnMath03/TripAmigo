@@ -30,8 +30,8 @@ const About = () => {
             <p className="text-body mb-8">
               Ready to join us? Let's make unforgettable memories, one adventure at a time, without breaking the bank!
             </p>
-            <a href="https://wa.me/+917994206184" target="_blank" rel="noopener noreferrer">
-              <button className="bg-orange-500 text-white text-large px-6 py-3 rounded-lg hover:bg-orange-600 transition-colors">
+            <a href="https://wa.me/917994206184/?text=Hi,+I+would+like+to+plan+a+trip+with+your+team.+Please+guide+me+on+how+to+get+started+?" target="_blank" rel="noopener noreferrer">
+              <button className="bg-orange-500 text-white text-button px-6 py-3 rounded-lg hover:bg-orange-600 transition-colors">
                 Lets Plan Your Trip
               </button>
             </a>

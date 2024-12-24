@@ -17,7 +17,7 @@ const TestimonialCard = ({ data }: { data: TestimonialData }) => (
         alt={`${data.name}'s quote`} 
         className="w-12 h-14 object-cover mb-3"
       />
-      <h3 className={`text-h3 font-semibold ${data.textColor}`}>{data.name}</h3>
+      <h3 className={`text-h3 font-semibold ${data.textColor} text-center w-full`}>{data.name}</h3>
     </div>
     <div className={`${data.textColor} text-4xl text-center mb-4`}>
       {'★'.repeat(data.rating)}

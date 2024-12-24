@@ -5,19 +5,22 @@ const destinations = [
     name: 'Goa',
     duration: '2N/3D',
     image: './images/goa.png',
-    rating: '₹3499'
+    rating: '₹3499',
+    url: 'https://wa.me/917994206184/?text=Hi,+I+am+interested+in+the+Goa+package+for+₹3499+(2+nights).+Can+you+share+more+details+?'
   },
   {
     name: 'Kodaikanal',
     duration: '1N/2D',
     image: './images/kodai.png',
-    rating: '₹2699'
+    rating: '₹2699',
+    url: 'https://wa.me/917994206184/?text=Hi,+I+am+interested+in+the+Kodaikanal+package+for+₹3499+(2+nights).+Can+you+share+more+details+?'
   },
   {
     name: 'Pondicherry',
     duration: '2N/3D',
     image: './images/pondi.png',
-    rating: '₹3499'
+    rating: '₹3499',
+    url: 'https://wa.me/917994206184/?text=Hi,+I+am+interested+in+the+Pondicherry+package+for+₹2699+(1+night).+Can+you+share+more+details+?'
   }
 ];
 
@@ -32,7 +35,13 @@ const Destinations = () => {
       <div className="container mx-auto px-4 mb-14">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {destinations.map((destination, index) => (
-            <div key={index} className="relative rounded-lg overflow-hidden shadow-lg group">
+            <a 
+              key={index} 
+              href={destination.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="relative rounded-lg overflow-hidden shadow-lg group cursor-pointer transform transition-transform duration-300 hover:scale-105"
+            >
               <div className="aspect-w-16 aspect-h-9">
                 <img
                   src={`${destination.image}`}
@@ -49,7 +58,7 @@ const Destinations = () => {
                   <span className="text-white font-semibold text-body">{destination.duration}</span>
                 </div>
               </div>
-            </div>
+            </a>
           ))}
         </div>
       </div>
