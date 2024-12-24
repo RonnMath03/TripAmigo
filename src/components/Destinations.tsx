@@ -13,14 +13,14 @@ const destinations = [
     duration: '1N/2D',
     image: './images/dandeli.webp',
     rating: '₹3499',
-    url: 'https://wa.me/917994206184/?text=Hi,+I+am+interested+in+the+Kodaikanal+package+for+₹3499+(2+nights).+Can+you+share+more+details+?'
+    url: 'https://wa.me/917994206184/?text=Hi,+I+am+interested+in+the+Dandeli+package+for+₹3499+(1+nights).+Can+you+share+more+details+?'
   },
   {
     name: 'Gokarna',
     duration: '1N/2D',
     image: './images/gokarna.webp',
     rating: '₹3499',
-    url: 'https://wa.me/917994206184/?text=Hi,+I+am+interested+in+the+Pondicherry+package+for+₹2699+(1+night).+Can+you+share+more+details+?'
+    url: 'https://wa.me/917994206184/?text=Hi,+I+am+interested+in+the+Gokarna+package+for+₹3499+(1+night).+Can+you+share+more+details+?'
   }
 ];
 
