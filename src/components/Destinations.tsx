@@ -5,22 +5,19 @@ const destinations = [
     name: 'Goa',
     duration: '2N/3D',
     image: './images/goa.webp',
-    rating: '₹3699',
-    url: 'https://wa.me/917994206184/?text=Hi,+I+am+interested+in+the+Goa+package+for+₹3699+(2+nights).+Can+you+share+more+details+?'
+    url: 'https://wa.me/917994206184/?text=Hi,+I+am+interested+in+the+Goa+package+(2+nights).+Can+you+share+more+details+?'
   },
   {
-    name: 'Dandeli',
+    name: 'Munnar',
     duration: '1N/2D',
-    image: './images/dandeli.webp',
-    rating: '₹3499',
-    url: 'https://wa.me/917994206184/?text=Hi,+I+am+interested+in+the+Dandeli+package+for+₹3499+(1+nights).+Can+you+share+more+details+?'
+    image: './images/munnar.webp',
+    url: 'https://wa.me/917994206184/?text=Hi,+I+am+interested+in+the+Munnar+package+(1+nights).+Can+you+share+more+details+?'
   },
   {
     name: 'Gokarna',
     duration: '1N/2D',
     image: './images/gokarna.webp',
-    rating: '₹3499',
-    url: 'https://wa.me/917994206184/?text=Hi,+I+am+interested+in+the+Gokarna+package+for+₹3499+(1+night).+Can+you+share+more+details+?'
+    url: 'https://wa.me/917994206184/?text=Hi,+I+am+interested+in+the+Gokarna+package+(1+night).+Can+you+share+more+details+?'
   }
 ];
 
@@ -51,10 +48,7 @@ const Destinations = () => {
               </div>
               <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
                 <h3 className="text-h3 font-bold text-white">{destination.name}</h3>
-                <div className="flex items-center justify-between">
-                  <div className="flex text-white text-body">
-                    {destination.rating}
-                  </div>
+                <div className="flex items-center justify-end">
                   <span className="text-white font-semibold text-body">{destination.duration}</span>
                 </div>
               </div>
