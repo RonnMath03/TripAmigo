@@ -6,9 +6,9 @@ const Hero = () => {
       <div className="absolute inset-0 bg-black/70">
         <div className="grid grid-cols-3 h-full">
           {/* Background images */}
-          <div className="bg-[url('/images/1.png')] bg-cover brightness-50"></div>
-          <div className="bg-[url('/images/2.png')] bg-cover brightness-50"></div>
-          <div className="bg-[url('/images/4.png')] bg-cover brightness-50"></div>
+          <div className="bg-[url('/images/1.webp')] bg-cover brightness-50"></div>
+          <div className="bg-[url('/images/2.webp')] bg-cover brightness-50"></div>
+          <div className="bg-[url('/images/4.webp')] bg-cover brightness-50"></div>
         </div>
       </div>
       <div className="relative z-10 container mx-auto px-4 h-full flex items-center justify-center text-center">
