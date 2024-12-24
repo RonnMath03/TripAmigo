@@ -25,8 +25,8 @@ function App() {
           <div className="flex flex-col md:flex-row justify-between items-start">
             {/* Contact Information */}
             <div className="w-full md:w-auto text-center md:text-left mb-6 md:mb-0">
-              <h3 className="text-xl font-semibold mb-4">Contact Us</h3>
-              <address className="not-italic">
+              <h3 className="text-h3 font-semibold mb-4">Contact Us</h3>
+              <address className="not-italic text-body">
                 <p className="mb-2">TripAmigo, Gyan Prayag, Old Block, RCSS,</p>
                 <p className="mb-2">Kalamassery, Ernakulam, Kerala</p>
               </address>
@@ -34,7 +34,7 @@ function App() {
             
             {/* Social Links */}
             <div className="w-full md:w-auto text-center md:text-right">
-              <h3 className="text-xl font-semibold mb-4">Connect With Us</h3>
+              <h3 className="text-h3 font-semibold mb-4">Connect With Us</h3>
               <div className="flex justify-center md:justify-end space-x-4">
                 <a href="mailto:contact.tripamigos@gmail.com" className="hover:text-blue-400 transition-colors">
                   <FaEnvelope size={24} />
@@ -53,7 +53,7 @@ function App() {
           </div>
           
           <div className="border-t border-gray-800 pt-4 mt-4 text-center">
-            <p className="text-sm">Copyright © TripAmigo</p>
+            <p className="text-small">Copyright © TripAmigo</p>
           </div>
         </div>
       </footer>

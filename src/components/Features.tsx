@@ -24,7 +24,7 @@ const Features = () => {
     <div className="bg-white relative">
       <div className="py-24 bg-orange-100 mb-8">
           <div className="container mx-auto px-4 text-center">
-            <h2 className="text-3xl text-orange-500 font-bold text-center mb-12">Why we're the First Choice for Travellers</h2>
+            <h2 className="text-h2 text-orange-500 font-bold text-center mb-12">Why we're the First Choice for Travellers</h2>
           </div>
       </div>  
       <div className="container py-16 mx-auto px-4">
@@ -34,8 +34,8 @@ const Features = () => {
               <div className="inline-block p-3 rounded-full bg-white mb-4">
                 {feature.icon}
               </div>
-              <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
-              <p className="text-gray-600">{feature.description}</p>
+              <h3 className="text-h3 font-semibold mb-2">{feature.title}</h3>
+              <p className="text-body text-gray-600">{feature.description}</p>
             </div>
           ))}
         </div>
@@ -50,14 +50,14 @@ const Features = () => {
       </div>
       <div className="bg-white mt-16 md:mt-32">
         <div className="container mx-auto px-4">
-          <h2 className="text-lg md:text-xl text-orange-500 font-semibold mb-8 md:mb-12 text-center md:text-left">
+          <h2 className="text-h3 text-orange-500 font-semibold mb-8 md:mb-12 text-center md:text-left">
             Ready for More? Explore All Our Benefits
           </h2>
         </div>
       </div>
       <div className="w-full flex justify-center md:justify-end px-4 md:px-10 pb-8 md:pb-0 md:absolute md:-bottom-2">
       <a href="https://wa.me/+917994206184" target="_blank" rel="noopener noreferrer">
-        <button className="bg-orange-500 text-white px-6 md:px-8 py-3 rounded-lg hover:bg-orange-600 transition-colors">
+        <button className="bg-orange-500 text-white text-body px-6 md:px-8 py-3 rounded-lg hover:bg-orange-600 transition-colors">
           Start Your Adventure Now
         </button> 
       </a>

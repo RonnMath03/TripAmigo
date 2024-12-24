@@ -5,17 +5,17 @@ const Custom = () => {
     <div className="bg-white text-black text-center py-20 relative">
       <div className="container text-center mx-auto px-4">
           <div className="text-center items-center">
-            <h2 className="text-3xl font-bold  mb-6 relative z-20">
+            <h2 className="text-h2 font-bold mb-6 relative z-20">
                 Craft Your Dream Journey.
                 Personalized Just for You!
             </h2>
-            <p className="text-lg  max-w-2xl mx-auto mb-8 relative z-20">
+            <p className="text-body max-w-2xl mx-auto mb-8 relative z-20">
               From solo adventures to group getaways, we craft personalized itineraries 
               that match your preferences. Tell us your dream destination, and we'll handle 
               the details - flights, stays, activities, and more.
             </p>
             <a href="https://wa.me/+917994206184" target="_blank" rel="noopener noreferrer">
-            <button className="bg-orange-500 text-white px-8 py-3 rounded-lg hover:bg-orange-600 transition-colors relative z-20">
+            <button className="bg-orange-500 text-white text-body px-8 py-3 rounded-lg hover:bg-orange-600 transition-colors relative z-20">
               Get your Custom Itinerary
             </button>
             </a>

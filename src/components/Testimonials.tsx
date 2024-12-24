@@ -17,12 +17,12 @@ const TestimonialCard = ({ data }: { data: TestimonialData }) => (
         alt={`${data.name}'s quote`} 
         className="w-12 h-14 object-cover mb-3"
       />
-      <h3 className={`text-xl font-semibold ${data.textColor}`}>{data.name}</h3>
+      <h3 className={`text-h3 font-semibold ${data.textColor}`}>{data.name}</h3>
     </div>
     <div className={`${data.textColor} text-4xl text-center mb-4`}>
       {'★'.repeat(data.rating)}
     </div>
-    <p className={`${data.textColor} text-center`}>{data.quote}</p>
+    <p className={`${data.textColor} text-body text-center`}>{data.quote}</p>
   </div>
 );
 
@@ -65,7 +65,7 @@ const Testimonials = () => {
         />
       </div>
       <div className="container mx-auto px-4 relative z-20">
-        <h2 className="text-3xl text-orange-500 font-bold text-center mb-12">
+        <h2 className="text-h2 text-orange-500 font-bold text-center mb-12">
           What They're Saying
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

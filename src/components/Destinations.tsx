@@ -26,7 +26,7 @@ const Destinations = () => {
     <div className="bg-white">
       <div className="py-32 bg-orange-100 mb-14">
           <div className="container mx-auto px-4 text-center">
-            <h2 className="text-3xl text-orange-500 font-bold text-center mb-12">Top Traveler Picks</h2>
+            <h2 className="text-h2 text-orange-500 font-bold text-center mb-12">Top Traveler Picks</h2>
           </div>
       </div>
       <div className="container mx-auto px-4 mb-14">
@@ -41,12 +41,12 @@ const Destinations = () => {
                 />
               </div>
               <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
-                <h3 className="text-2xl font-bold text-white">{destination.name}</h3>
+                <h3 className="text-h3 font-bold text-white">{destination.name}</h3>
                 <div className="flex items-center justify-between">
-                  <div className="flex text-white">
+                  <div className="flex text-white text-body">
                     {destination.rating}
                   </div>
-                  <span className="text-white font-semibold">{destination.duration}</span>
+                  <span className="text-white font-semibold text-body">{destination.duration}</span>
                 </div>
               </div>
             </div>
@@ -55,7 +55,7 @@ const Destinations = () => {
       </div>
       <div className="py-24 bg-orange-100 mb-8">
           <div className="container mx-auto px-4 text-center">
-            <h2 className="text-3xl text-orange-500 font-bold text-center mb-12">Didn't see your choice?</h2>
+            <h2 className="text-h2 text-orange-500 font-bold text-center mb-12">Didn't see your choice?</h2>
           </div>
       </div>      
     </div>
