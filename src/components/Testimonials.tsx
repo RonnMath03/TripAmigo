@@ -28,24 +28,24 @@ const TestimonialCard = ({ data }: { data: TestimonialData }) => (
 
 const testimonials: TestimonialData[] = [
   {
-    name: "Aarsh",
-    quote: "The custom itinerary was perfect! They managed everything — flights, hotels, and activities.",
+    name: "George Kattamapally",
+    quote: "I recently had the pleasure of booking a trip through Trip Amigo and couldn't be more impressed with their service.",
     rating: 5,
     bgColor: "bg-orange-100",
     textColor: "text-orange-500",
     q: "./images/quoteo.png"
   },
   {
-    name: "Marita",
-    quote: "Amazing experience from start to finish. Highly recommended for group travel!",
+    name: "Sabrinath B",
+    quote: "I had an amazing trip with my college classmates, all thanks to Trip Amigo, The travel agency made everything seamless, from planning to execution.",
     rating: 5,
     bgColor: "bg-orange-500",
     textColor: "text-white",
     q: "./images/quotew.png"
   },
   {
-    name: "Shervin",
-    quote: "Professional service with attention to detail. Will definitely use again!",
+    name: "Allen Biju",
+    quote: "Everything was seamless, from the train booking and accommodations to the perfectly curated itinerary.",
     rating: 5,
     bgColor: "bg-orange-100",
     textColor: "text-orange-500",
