@@ -6,7 +6,7 @@ const destinations = [
     duration: '2N/3D',
     image: './images/goa.webp',
     rating: '₹3699',
-    url: 'https://wa.me/917994206184/?text=Hi,+I+am+interested+in+the+Goa+package+for+₹3499+(2+nights).+Can+you+share+more+details+?'
+    url: 'https://wa.me/917994206184/?text=Hi,+I+am+interested+in+the+Goa+package+for+₹3699+(2+nights).+Can+you+share+more+details+?'
   },
   {
     name: 'Dandeli',
