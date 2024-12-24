@@ -13,7 +13,7 @@ const Hero = () => {
       </div>
       <div className="relative z-10 container mx-auto px-4 h-full flex items-center justify-center text-center">
         <div className="max-w-2xl">
-          <h1 className="text-h1 md:text-display font-bold text-white mb-6">
+          <h1 className="text-h2 sm:text-h1 md:text-display font-bold text-white mb-6">
             Memorable Group Journeys, Expertly Crafted By TripAmigo
           </h1>
           <p className="text-large text-white mb-8">
