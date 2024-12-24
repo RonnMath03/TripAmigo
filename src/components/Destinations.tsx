@@ -47,8 +47,8 @@ const Destinations = () => {
                 />
               </div>
               <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
-                <h3 className="text-h3 font-bold text-white">{destination.name}</h3>
-                <div className="flex items-center justify-end">
+                <div className="flex items-center justify-between">
+                  <h3 className="text-h3 font-bold text-white">{destination.name}</h3>
                   <span className="text-white font-semibold text-body">{destination.duration}</span>
                 </div>
               </div>
