@@ -5,20 +5,20 @@ const destinations = [
     name: 'Goa',
     duration: '2N/3D',
     image: './images/goa.png',
-    rating: '₹3499',
+    rating: '₹3699',
     url: 'https://wa.me/917994206184/?text=Hi,+I+am+interested+in+the+Goa+package+for+₹3499+(2+nights).+Can+you+share+more+details+?'
   },
   {
-    name: 'Kodaikanal',
+    name: 'Dandeli',
     duration: '1N/2D',
-    image: './images/kodai.png',
-    rating: '₹2699',
+    image: './images/dandeli.png',
+    rating: '₹3499',
     url: 'https://wa.me/917994206184/?text=Hi,+I+am+interested+in+the+Kodaikanal+package+for+₹3499+(2+nights).+Can+you+share+more+details+?'
   },
   {
-    name: 'Pondicherry',
-    duration: '2N/3D',
-    image: './images/pondi.png',
+    name: 'Gokarna',
+    duration: '1N/2D',
+    image: './images/gokarna.png',
     rating: '₹3499',
     url: 'https://wa.me/917994206184/?text=Hi,+I+am+interested+in+the+Pondicherry+package+for+₹2699+(1+night).+Can+you+share+more+details+?'
   }
