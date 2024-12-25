@@ -21,6 +21,20 @@ export default {
         'xs': ['0.75rem', { lineHeight: '1.5' }],       // 12px
         'button': ['1rem', { lineHeight: '1.5', fontWeight: '600' }],      // 16px semibold
       },
+      keyframes: {
+        float: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-10px)' },
+        },
+        'float-delayed': {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-10px)' },
+        }
+      },
+      animation: {
+        float: 'float 6s ease-in-out infinite',
+        'float-delayed': 'float-delayed 6s ease-in-out infinite 3s',
+      }
     },
   },
   plugins: [],

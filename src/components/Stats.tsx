@@ -7,7 +7,6 @@ const Stats = () => {
     { number: 100, label: 'Customers' }
   ];
 
-  // Remove useState and useEffect since we'll use scroll-based animation
 
   return (
     <div className="py-16 bg-orange-50">

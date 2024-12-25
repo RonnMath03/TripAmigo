@@ -25,21 +25,18 @@ const cardVariants = {
 const destinations = [
   {
     name: 'Goa',
-    duration: '2N/3D',
     image: './images/goa.webp',
-    url: 'https://wa.me/917994206184/?text=Hi,+I+am+interested+in+the+Goa+package+(2+nights).+Can+you+share+more+details+?'
+    url: 'https://wa.me/917994206184/?text=Hi,+I+am+interested+in+the+Goa+package.+Can+you+share+more+details+?'
   },
   {
     name: 'Munnar',
-    duration: '1N/2D',
     image: './images/munnar.webp',
-    url: 'https://wa.me/917994206184/?text=Hi,+I+am+interested+in+the+Munnar+package+(1+nights).+Can+you+share+more+details+?'
+    url: 'https://wa.me/917994206184/?text=Hi,+I+am+interested+in+the+Munnar+package.+Can+you+share+more+details+?'
   },
   {
     name: 'Gokarna',
-    duration: '1N/2D',
     image: './images/gokarna.webp',
-    url: 'https://wa.me/917994206184/?text=Hi,+I+am+interested+in+the+Gokarna+package+(1+night).+Can+you+share+more+details+?'
+    url: 'https://wa.me/917994206184/?text=Hi,+I+am+interested+in+the+Gokarna+package.+Can+you+share+more+details+?'
   }
 ];
 
@@ -103,7 +100,6 @@ const Destinations = () => {
               >
                 <div className="flex items-center justify-between">
                   <h3 className="text-h3 font-bold text-white">{destination.name}</h3>
-                  <span className="text-white font-semibold text-body">{destination.duration}</span>
                 </div>
               </motion.div>
             </motion.a>
