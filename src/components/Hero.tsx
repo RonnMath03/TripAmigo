@@ -116,7 +116,7 @@ const Hero = () => {
         initial={{ y: 0 }}
         animate={{ y: [0, 10, 0] }}
         transition={{ duration: 1.5, repeat: Infinity }}
-        className="absolute bottom-8 left-1/2 transform -translate-x-1/2 cursor-pointer text-white"
+        className="absolute bottom-16 md:bottom-8 left-1/2 transform -translate-x-1/2 cursor-pointer text-white"
       >
         <FaChevronDown size={24} />
       </motion.div>
