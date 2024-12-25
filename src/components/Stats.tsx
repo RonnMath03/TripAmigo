@@ -1,10 +1,12 @@
 import React from 'react';
+import CountUp from 'react-countup';
 
 const Stats = () => {
   const stats = [
-    { number: '25+', label: 'Trips' },
-    { number: '100+', label: 'Customers' }
+    { number: 25, label: 'Trips' },
+    { number: 100, label: 'Customers' }
   ];
+
 
   return (
     <div className="py-16 bg-orange-50">
@@ -16,7 +18,16 @@ const Stats = () => {
         <div className="flex justify-center gap-16">
           {stats.map((stat, index) => (
             <div key={index} className="text-center">
-              <div className="text-h2 font-bold text-orange-500">{stat.number}</div>
+              <div className="text-h2 font-bold text-orange-500">
+                <CountUp
+                  start={0}
+                  end={stat.number}
+                  duration={2.5}
+                  suffix="+"
+                  enableScrollSpy={true}
+                  scrollSpyOnce={true}
+                />
+              </div>
               <div className="text-body text-gray-600">{stat.label}</div>
             </div>
           ))}

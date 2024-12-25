@@ -1,4 +1,5 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 
 interface TestimonialData {
   name: string;
@@ -9,21 +10,38 @@ interface TestimonialData {
   q: string;
 }
 
-const TestimonialCard = ({ data }: { data: TestimonialData }) => (
-  <div className={`${data.bgColor} rounded-lg p-6 transition-transform hover:scale-105`}>
+const QuoteImage = ({ src, alt }: { src: string; alt: string }) => (
+  <motion.img 
+    src={src} 
+    alt={alt} 
+    className="w-12 h-14 object-cover mb-3"
+    animate={{
+      y: [-5, 5, -5],
+    }}
+    transition={{
+      duration: 3,
+      repeat: Infinity,
+      ease: "easeInOut"
+    }}
+  />
+);
+
+const TestimonialCard = ({ data, index }: { data: TestimonialData; index: number }) => (
+  <motion.div 
+    className={`${data.bgColor} rounded-lg p-6 transition-transform hover:scale-105`}
+    initial={{ opacity: 0, y: 20 }}
+    animate={{ opacity: 1, y: 0 }}
+    transition={{ duration: 0.5, delay: index * 0.2 }}
+  >
     <div className="flex flex-col items-center mb-4">
-      <img 
-        src={`${data.q}`} 
-        alt={`${data.name}'s quote`} 
-        className="w-12 h-14 object-cover mb-3"
-      />
+      <QuoteImage src={data.q} alt={`${data.name}'s quote`} />
       <h3 className={`text-h3 font-semibold ${data.textColor} text-center w-full`}>{data.name}</h3>
     </div>
     <div className={`${data.textColor} text-4xl text-center mb-4`}>
       {'★'.repeat(data.rating)}
     </div>
     <p className={`${data.textColor} text-body text-center`}>{data.quote}</p>
-  </div>
+  </motion.div>
 );
 
 const testimonials: TestimonialData[] = [
@@ -56,21 +74,31 @@ const testimonials: TestimonialData[] = [
 const Testimonials = () => {
   return (
     <div className="py-16 bg-white relative">
-      <div className="absolute -bottom-4 -left-40 z-0">
+      <motion.div 
+        className="absolute -bottom-4 -left-40 z-0"
+        initial={{ opacity: 0, x: -50 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.8 }}
+      >
         <img 
           src="./images/tower.png" 
           alt="" 
           className="h-svh w-96 object-cover opacity-100"
           aria-hidden="true"
         />
-      </div>
+      </motion.div>
       <div className="container mx-auto px-4 relative z-20">
-        <h2 className="text-h2 text-orange-500 font-bold text-center mb-12">
+        <motion.h2 
+          className="text-h2 text-orange-500 font-bold text-center mb-12"
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+        >
           What They're Saying
-        </h2>
+        </motion.h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
-            <TestimonialCard key={index} data={testimonial} />
+            <TestimonialCard key={index} data={testimonial} index={index} />
           ))}
         </div>
       </div>
