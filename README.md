@@ -1,4 +1,4 @@
-# ✈️ TripAmigo
+![TripAmigo](https://github.com/RonnMath03/TripAmigo/blob/main/public/images/fulllogo.png)
 
 <div align="center">
 
