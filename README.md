@@ -1,4 +1,8 @@
-![TripAmigo](https://github.com/RonnMath03/TripAmigo/blob/main/public/images/fulllogo.png)
+<div align="center"> 
+  
+![TripAmigo](https://github.com/RonnMath03/TripAmigo/blob/main/public/images/logof.png)
+
+</div>
 
 <div align="center">
 
