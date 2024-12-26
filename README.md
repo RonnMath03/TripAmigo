@@ -2,17 +2,16 @@
 
 <div align="center">
 
-![TripAmigo](https://img.shields.io/badge/TripAmigo-Travel%20Platform-blue)
+
 [![React](https://img.shields.io/badge/React-18-%2361DAFB.svg)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-4.9-blue.svg)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.0-38B2AC.svg)](https://tailwindcss.com/)
 [![Vite](https://img.shields.io/badge/Vite-5.0-646CFF.svg)](https://vitejs.dev/)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 </div>
 
 <div align="center">
-  <h3>🌟 Your Personal Travel Companion 🌟</h3>
+  <h3>🌟 Designing Memories, Just For You 🌟</h3>
 </div>
 
 A modern travel planning platform that revolutionizes group travel experiences. TripAmigo combines cutting-edge technology with personalized service to create unforgettable journeys at competitive prices.
@@ -63,7 +62,7 @@ A modern travel planning platform that revolutionizes group travel experiences. 
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/tripamigo.git
+git clone https://github.com/RonnMath03/tripamigo.git
 
 # Install dependencies
 npm install
@@ -79,7 +78,6 @@ npm run build
 
 - 📧 Email: contact.tripamigos@gmail.com
 - 📸 Instagram: @tripamigo.in
-- 💬 WhatsApp: +91 7994206184
 
 ## 🌐 Live Site
 Visit us at www.tripamigo.in
@@ -89,5 +87,4 @@ Copyright © 2024 TripAmigo. All rights reserved.
 
 <div align="center"> 
 <p>Made with ❤️ by the TripAmigo Team<p> 
-<p>Designing Memories, Just For You 🌟</p> 
 </div>
