@@ -1,6 +1,6 @@
 <div align="center"> 
   
-![TripAmigo](https://github.com/RonnMath03/TripAmigo/blob/main/public/images/logof.png)
+![TripAmigo](public/images/logof.png)
 
 </div>
 
