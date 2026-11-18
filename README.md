@@ -18,6 +18,10 @@
   <h3>🌟 Designing Memories, Just For You 🌟</h3>
 </div>
 
+## About this repo
+
+This is the production source for **[tripamigo.in](https://www.tripamigo.in/)**, the website of TripAmigo, a group-travel startup I co-founded. I led the team and built the site end to end (React, TypeScript, Tailwind CSS, Vite); the visual design was done collaboratively. The rest of this README describes the TripAmigo service as it's presented to customers.
+
 A modern travel planning platform that revolutionizes group travel experiences. TripAmigo combines cutting-edge technology with personalized service to create unforgettable journeys at competitive prices.
 
 ## ✨ Features
